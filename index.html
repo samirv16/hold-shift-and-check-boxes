@@ -100,7 +100,13 @@
 
   let lastChecked;
 
+  let inBetween = false;
+
   function handleCheck(e) {
+
+    if(e.shiftKey && this.checked) {
+    
+    }
     lastChecked = this;
   }
   
